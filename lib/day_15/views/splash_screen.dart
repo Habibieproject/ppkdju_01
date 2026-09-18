@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ppkdju_01/day_15/services/preference_handler.dart';
 import 'package:ppkdju_01/day_15/views/login_screen.dart';
+import 'package:ppkdju_01/day_17/views/login_screen.dart';
 import 'package:ppkdju_01/extension/navigator.dart';
 
 class SplashScreenDay15 extends StatefulWidget {
@@ -22,7 +23,7 @@ class _SplashScreenDay15State extends State<SplashScreenDay15> {
     if (PreferenceHandler.isLogin == true) {
       context.pushAndRemoveAll(HalamanTerimaKasih(email: "email"));
     } else {
-      context.pushAndRemoveAll(LoginScreenDay15());
+      context.pushAndRemoveAll(LoginScreenDay17());
     }
   }
 
