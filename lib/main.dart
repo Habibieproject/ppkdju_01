@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ppkdju_01/day_15/services/preference_handler.dart';
-import 'package:ppkdju_01/random_picker/random_picker_screen.dart';
+import 'package:ppkdju_01/day_21/views/maps_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: RandomPickerScreen(),
+      home: GoogleMapsScreenDay19(),
     );
   }
 }

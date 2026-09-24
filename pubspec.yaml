@@ -28,24 +28,23 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter:
-    sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  confetti: ^0.8.0
   cupertino_icons: ^1.0.8
   dio: ^5.11.1
+  flutter:
+    sdk: flutter
+  fluttertoast: ^9.0.0
+  geocoding: ^5.0.0
+  geolocator: ^14.0.3
+  google_maps_flutter: ^2.18.1
+  path: null
   retrofit: ^4.10.0
   shared_preferences: ^2.5.5
-  sqflite:
-  path:
-  sqlite_viewer:
-  fluttertoast: ^9.0.0
-  confetti: ^0.8.0
+  sqflite: null
+  sqlite_viewer: null
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  build_runner: ^2.4.14
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -53,7 +52,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
-  build_runner: ^2.4.14
+  flutter_test:
+    sdk: flutter
   json_serializable: ^6.14.1
   retrofit_generator: ^10.2.9
 
