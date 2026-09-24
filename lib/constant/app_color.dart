@@ -29,4 +29,5 @@ class AppColor {
   static const Color greyColorDivider = Color(0xffEDF1F3);
   static const Color blueForgot = Color(0xff4D81E7);
   static const Color blueButtons = Color(0xff1D61E7);
+  static const Color primaryDay21 = Color(0xFF31AAA9);
 }
